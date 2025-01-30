@@ -1,0 +1,102 @@
+/* Encabezado Principal */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #0044cc;
+    color: white;
+    position: relative;
+}
+
+/* Logo */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Texto del Encabezado */
+.header-text {
+    text-align: center;
+    flex: 1;
+}
+
+.header-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Eslogan */
+.header-slogan {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+/* Menú de Navegación */
+.menu {
+    display: none;
+}
+
+/* Botón de Hamburguesa */
+.hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+}
+
+/* Menú en Pantallas Pequeñas */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #0044cc;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 1000;
+    }
+
+    .menu.open {
+        display: flex;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+/* Menú en Pantallas Grandes */
+@media (min-width: 769px) {
+    .menu {
+        display: flex;
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    /* Ocultar Botón de Hamburguesa en Pantallas Grandes */
+    .hamburger {
+        display: none;
+    }
+}

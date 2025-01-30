@@ -1,0 +1,19 @@
+/* ListaClientes.css */
+
+.lista-clientes-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.lista-clientes-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.lista-clientes-table th,
+.lista-clientes-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
