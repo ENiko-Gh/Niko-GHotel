@@ -76,13 +76,13 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
 ### Paguina de inicio 
 
-![pg-Inicion](poreliminar\PagInicio.jpg)
+![pg-Inicion](src\assets\\PagInicio.jpg)
 
-![pg-Inicion](poreliminar\PagResponsive.jpg)
+![pg-Inicion](src\assets\PagResponsive.jpg)
 es una pagina  responsive adaptadas para celulares con  un menu de navegacion  tipo hamburgursa se presenta mensaje de bienvenida  y sus opciones en habitaciones 
 ## Pagina HAbitaciones 
 
-![pg-Inicion](poreliminar\Habitaciones.jpg)
+![pg-Inicion](src\assets\Habitaciones.jpg)
 se muestra la lista de  habitaiones  con su total  y las disponibles y asi mismo las wue estan ocupadas 
 en el Gestion de Habitaciones  seleccionamos el tipo de Habitacion  no harroja el precio por noche  en este caso es uSD 50 al dar click en Agregar  habitacion  automaticamente se autualiza en el localstorage  y se visualiza en un habitacion menos en disponibilidad  si la eleccion es declinar habitacion automaticamente se suma ala disponibilidad  es para cuando ya la habitacion es desocupada  asi mantenemos visible la disponibilidad 
 
@@ -90,12 +90,12 @@ en el Gestion de Habitaciones  seleccionamos el tipo de Habitacion  no harroja e
 
 Esta pagina se la utiliza cuando ya son clientes frecuentes  y lo pueden hacer via internet  o por otros medios redes sociales 
 
-![pg-Inicion](poreliminar\NuevaReserva.jpg)
+![pg-Inicion](src\assets\NuevaReserva.jpg)
 el cliente ya esta en la basede datos  selecciona   y luego  mira la disponibilidad de las habitaciones y selecciona la de su agrado ingresa la fecha de inicio  y la fecha de fin  automaticamente se visualiza el valor total  y el numero de dias  al dar click Registrar reserva  la informacion  se guarda en localstorage  y se visualiza en  lista de reservas visualizala informacion con mas detalle 
 
 ## Clientes
 
-![pg-Inicion](poreliminar\Clientes.jpg)
+![pg-Inicion](src\assets\\Clientes.jpg)
 esta pagina es para  registraar nuevos clientes  de forma manual una vez ingresado los datos en los campos  no permite campos en blanco  y damos click en Ingresar nuevo cliente  se guarda en el localstorage  y se visualiza en lista de clientes esta lista se actualiza para posterior ser utilizada como clientees freuentes y poderlo realizar por internet  esta tabla se puede actualizar o eliminar un cliente  si es mal cliente 
 
 
