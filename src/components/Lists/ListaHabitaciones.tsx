@@ -42,7 +42,6 @@ const ListaHabitaciones = () => {
         setLocalStorageItem('habitaciones', nuevasHabitaciones);
     };
 
-    // Agregar una nueva habitación
     const agregarHabitacion = () => {
         if (!nuevoTipo) return alert('Selecciona un tipo de habitación.');
 
@@ -62,7 +61,6 @@ const ListaHabitaciones = () => {
         setNuevoPrecio(0);
     };
 
-    // Declinar (desocupar) una habitación
     const declinarHabitacion = (tipo: string) => {
         const habitacionesActualizadas = habitaciones.map(habitacion => {
             if (habitacion.tipo === tipo && habitacion.ocupadas > 0) {
@@ -78,14 +76,12 @@ const ListaHabitaciones = () => {
         actualizarHabitaciones(habitacionesActualizadas);
     };
 
-    // Manejar cambio de tipo de habitación
     const manejarCambioTipo = (tipo: string) => {
         setNuevoTipo(tipo);
         const habitacionSeleccionada = tiposDeHabitacion.find(h => h.tipo === tipo);
         setNuevoPrecio(habitacionSeleccionada ? habitacionSeleccionada.precio : 0);
     };
 
-    // Manejadores para navegar entre imágenes
     const cambiarImagen = (tipo: string, direccion: 'adelante' | 'atras') => {
         setImagenesVisibles(prevState => {
             const imagenesActuales = prevState[tipo];

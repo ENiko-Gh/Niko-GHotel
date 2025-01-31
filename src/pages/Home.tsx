@@ -18,25 +18,25 @@ const Home = () => {
                     {/* Contenedor 1 */}
                     <div className="image-item">
                         <img src="/Img1.png" alt="Habitación 1" />
-                        <p>Descripción de la habitación 1.</p>
+                        <p>Habitaciones Dobles .</p>
                         <button><Link to="/habitaciones">Ver más</Link></button>
                     </div>
                     {/* Contenedor 2 */}
                     <div className="image-item">
                         <img src="/Img2.png" alt="Habitación 2" />
-                        <p>Descripción de la habitación 2.</p>
+                        <p>Habitaciones Individaules.</p>
                         <button><Link to="/habitaciones">Ver más</Link></button>
                     </div>
                     {/* Contenedor 3 */}
                     <div className="image-item">
                         <img src="/Img3.png" alt="Habitación 3" />
-                        <p>Descripción de la habitación 3.</p>
+                        <p>Suits.</p>
                         <button><Link to="/habitaciones">Ver más</Link></button>
                     </div>
                     {/* Contenedor 4 */}
                     <div className="image-item">
                         <img src="/Img4.png" alt="Habitación 4" />
-                        <p>Descripción de la habitación 4.</p>
+                        <p>Habitaciones Matrimoniales.</p>
                         <button><Link to="/habitaciones">Ver más</Link></button>
                     </div>
                 </div>

@@ -12,12 +12,12 @@
 
 .welcome-section h2 {
     font-size: 28px;
-    color: #0044cc;
+    color: #5f8deb;
 }
 
 .welcome-section p {
     font-size: 18px;
-    color: #555;
+    color: #e8e6bc;
 }
 
 /* Sección de Servicios */
@@ -27,7 +27,7 @@
 
 .services-section h2 {
     font-size: 24px;
-    color: #0044cc;
+    color: #6496fb;
     margin-bottom: 20px;
 }
 
@@ -80,12 +80,12 @@
 
 .reservation-section h2 {
     font-size: 24px;
-    color: #0044cc;
+    color: #6996ef;
 }
 
 .reservation-section p {
     font-size: 16px;
-    color: #555;
+    color: #eae9ba;
     margin-bottom: 20px;
 }
 
